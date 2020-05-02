@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-//@Configuration
-//@Profile("google")
+@Configuration
+@Profile("google")
 public class GoogleConfig {
 
     @Bean
